@@ -1,0 +1,74 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center; /* Para centrar el texto */
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  background-color: #f2f2f2;
+  padding: 50px 0;
+  text-align: center; /* Para centrar el contenido */
+}
+
+.about, .services, .gallery, .calendar, .standings, .positions, .biography, .memories {
+  padding: 50px 0;
+  text-align: center; /* Para centrar el contenido */
+}
+
+.standings table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.standings table th, .standings table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+.standings table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center; /* Para centrar el contenido */
+}
+

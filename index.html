@@ -1,181 +1,170 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FutGames</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-
-        .container {
-            width: 80%;
-            margin: 0 auto;
-        }
-
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 20px 0;
-            text-align: center;
-            position: relative;
-        }
-
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        nav ul li {
-            display: inline;
-            margin-right: 20px;
-        }
-
-        nav ul li a {
-            color: #fff;
-            text-decoration: none;
-        }
-
-        section {
-            padding: 40px 0;
-        }
-
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 20px 0;
-        }
-
-        footer p {
-            margin: 0;
-        }
-
-        /* Estilos adicionales para hacer la página más profesional */
-        h1 {
-            font-size: 36px;
-        }
-
-        h2 {
-            font-size: 24px;
-        }
-
-        a {
-            transition: color 0.3s ease;
-            background-color: #333;
-            color: #fff;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            text-decoration: none;
-        }
-
-        a:hover {
-            background-color: #555;
-        }
-
-        /* Estilos para el formulario de contacto */
-        form {
-            max-width: 600px;
-            margin: 0 auto;
-        }
-
-        input[type="text"],
-        textarea {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 20px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-
-        textarea {
-            height: 150px;
-        }
-
-        input[type="submit"] {
-            background-color: #333;
-            color: #fff;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-
-        input[type="submit"]:hover {
-            background-color: #555;
-        }
-
-        /* Estilo para la imagen */
-        img {
-            position: absolute;
-            top: 10px;
-            left: 10px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Interespecialidades</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header>
-        <div class="container">
-            <img src="img/logo-futgames.png" alt="" width="100" height="100">
-            <h1>Torneo de Fútbol</h1>
-            <nav>
-                <ul>
-                    <li><a href="#calendario">Calendario</a></li>
-                    <li><a href="#equipos">Equipos</a></li>
-                    <li><a href="#resultados">Resultados</a></li>
-                    <li><a href="#noticias">Noticias</a></li>
-                    <li><a href="#contacto">Contacto</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    
-    <section id="calendario">
-        <div class="container">
-            <h2>Calendario de Partidos</h2>
-            <!-- Aquí iría el calendario de partidos -->
-        </div>
-    </section>
 
-    <section id="equipos">
-        <div class="container">
-            <h2>Equipos Participantes</h2>
-            <!-- Aquí iría la lista de equipos -->
-        </div>
-    </section>
+  <header>
+    <div class="container">
+      <img src="ruta/a/tu/logo.png" alt="Logo de Interespecialidades" class="logo">
+      <h1>Interespecialidades</h1>
+      <nav>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#galeria">Galería</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+          <li><a href="#clasificaciones">Clasificaciones</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <section id="resultados">
-        <div class="container">
-            <h2>Resultados y Clasificaciones</h2>
-            <!-- Aquí irían los resultados y clasificaciones -->
-        </div>
-    </section>
+  <section id="inicio" class="hero">
+    <div class="container">
+      <h2>Bienvenido a Interespecialidades</h2>
+      <p>Su portal para descubrir una amplia gama de especialidades.</p>
+    </div>
+  </section>
 
-    <section id="noticias">
-        <div class="container">
-            <h2>Noticias y Actualizaciones</h2>
-            <!-- Aquí irían las noticias y actualizaciones -->
-        </div>
-    </section>
+  <section id="nosotros" class="about">
+    <div class="container">
+      <h2>Nosotros</h2>
+      <p>Somos un equipo comprometido en brindar información detallada sobre diversas especialidades para satisfacer las necesidades de nuestros usuarios.</p>
+    </div>
+  </section>
 
-    <section id="contacto">
-        <div class="container">
-            <h2>Contacto</h2>
-            <!-- Aquí iría el formulario de contacto -->
-        </div>
-    </section>
+  <section id="servicios" class="services">
+    <div class="container">
+      <h2>Servicios</h2>
+      <div class="service">
+        <h3>Especialidades Médicas</h3>
+        <p>Descubre información sobre diferentes campos de la medicina, desde cardiología hasta dermatología.</p>
+      </div>
+      <div class="service">
+        <h3>Especialidades Tecnológicas</h3>
+        <p>Explora los avances en tecnología, desde inteligencia artificial hasta desarrollo web.</p>
+      </div>
+      <div class="service">
+        <h3>Especialidades Artesanales</h3>
+        <p>Sumérgete en el mundo del arte y la artesanía, desde pintura hasta cerámica.</p>
+      </div>
+    </div>
+  </section>
 
-    <footer>
-        <div class="container">
-            <p>&copy; Torneo de Interespecialidades</p>
-        </div>
-    </footer>
+  <section id="galeria" class="gallery">
+    <div class="container">
+      <h2>Galería</h2>
+      <!-- Aquí puedes agregar imágenes de las especialidades -->
+    </div>
+  </section>
 
+  <section id="clasificaciones" class="standings">
+    <div class="container">
+      <h2>Clasificaciones</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Equipo</th>
+            <th>PJ</th>
+            <th>PG</th>
+            <th>PE</th>
+            <th>PP</th>
+            <th>GF</th>
+            <th>GC</th>
+            <th>Dif</th>
+            <th>Puntos</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Equipo 1</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>Equipo 2</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>Equipo 3</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>Equipo 4</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>Equipo 5</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>Equipo 6</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Interespecialidades. Todos los derechos reservados.</p>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
 
 </body>
 </html>
