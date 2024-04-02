@@ -1,170 +1,92 @@
 <!DOCTYPE html>
-<html lang="es">
+<html ng-app="app" ng-cloak>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Interespecialidades</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-70638948-1"></script>
+	<script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);};gtag('js', new Date());</script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>FUTGAME</title>
+	<link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+	<link href="lib/tether/dist/css/tether.min.css" rel="stylesheet">
+	<link href="lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="lib/sweetalert2/dist/sweetalert2.min.css" rel="stylesheet">
+	<link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Slackey" rel="stylesheet">
+	<link href="content/css/styles.min.css" rel="stylesheet">
 </head>
 <body>
-
-  <header>
-    <div class="container">
-      <img src="ruta/a/tu/logo.png" alt="Logo de Interespecialidades" class="logo">
-      <h1>Interespecialidades</h1>
-      <nav>
-        <ul>
-          <li><a href="#inicio">Inicio</a></li>
-          <li><a href="#nosotros">Nosotros</a></li>
-          <li><a href="#servicios">Servicios</a></li>
-          <li><a href="#galeria">Galería</a></li>
-          <li><a href="#contacto">Contacto</a></li>
-          <li><a href="#clasificaciones">Clasificaciones</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <section id="inicio" class="hero">
-    <div class="container">
-      <h2>Bienvenido a Interespecialidades</h2>
-      <p>Su portal para descubrir una amplia gama de especialidades.</p>
-    </div>
-  </section>
-
-  <section id="nosotros" class="about">
-    <div class="container">
-      <h2>Nosotros</h2>
-      <p>Somos un equipo comprometido en brindar información detallada sobre diversas especialidades para satisfacer las necesidades de nuestros usuarios.</p>
-    </div>
-  </section>
-
-  <section id="servicios" class="services">
-    <div class="container">
-      <h2>Servicios</h2>
-      <div class="service">
-        <h3>Especialidades Médicas</h3>
-        <p>Descubre información sobre diferentes campos de la medicina, desde cardiología hasta dermatología.</p>
-      </div>
-      <div class="service">
-        <h3>Especialidades Tecnológicas</h3>
-        <p>Explora los avances en tecnología, desde inteligencia artificial hasta desarrollo web.</p>
-      </div>
-      <div class="service">
-        <h3>Especialidades Artesanales</h3>
-        <p>Sumérgete en el mundo del arte y la artesanía, desde pintura hasta cerámica.</p>
-      </div>
-    </div>
-  </section>
-
-  <section id="galeria" class="gallery">
-    <div class="container">
-      <h2>Galería</h2>
-      <!-- Aquí puedes agregar imágenes de las especialidades -->
-    </div>
-  </section>
-
-  <section id="clasificaciones" class="standings">
-    <div class="container">
-      <h2>Clasificaciones</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Equipo</th>
-            <th>PJ</th>
-            <th>PG</th>
-            <th>PE</th>
-            <th>PP</th>
-            <th>GF</th>
-            <th>GC</th>
-            <th>Dif</th>
-            <th>Puntos</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Equipo 1</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-          </tr>
-          <tr>
-            <td>Equipo 2</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-          </tr>
-          <tr>
-            <td>Equipo 3</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-          </tr>
-          <tr>
-            <td>Equipo 4</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-          </tr>
-          <tr>
-            <td>Equipo 5</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-          </tr>
-          <tr>
-            <td>Equipo 6</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </section>
-
-  <footer>
-    <div class="container">
-      <p>&copy; 2024 Interespecialidades. Todos los derechos reservados.</p>
-      <div class="social-links">
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-      </div>
-    </div>
-  </footer>
-
+	<header>
+		<div class="hero" ng-if="showHeroFlag"></div>		
+		<nav class="navbar navbar-inverse" ng-class="showHeroFlag ? 'bg-transparent' : 'bg-turquoise'">
+			<div class="container d-flex">
+				<a class="navbar-brand" href="#!/" ng-show="!showHeroFlag">
+					<img src="content/img/futgame_inverse_m.png" />
+				</a>
+			</div>
+		</nav>
+		<div class="jumbotron jumbotron-fluid mb-0" ng-if="showHeroFlag">
+			<div class="container text-center">
+				<img class="hero-brand" src="content/img/futgame_inverse_b.png" />
+				<div class="hero-button">
+					<a class="btn btn-lg btn-success" href="http://app.futgame.com">{{ 'BUTTON_PLAY_NOW' | translate }}</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div ng-view></div>
+	<footer>
+		<div class="footer-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6">
+						<h4>{{ 'TITLE_WHAT_IS_FUTGAME' | translate }}</h4>
+						<p>{{ 'TEXT_WHAT_IS_FUTGAME' | translate }}</p>
+						
+					</div>
+					<div class="col-sm-2">
+						<h4>{{ 'TITLE_MORE'  | translate }}</h4>
+						<p><a href="#!/about">{{ 'LINK_ABOUT' | translate }}</a></p>
+						<p><a href="#!/faq">{{ 'LINK_FAQ' | translate }}</a></p>
+						<p><a href="#!/contact">{{ 'LINK_CONTACT' | translate }}</a></p>	
+						<p></p>
+						<p></p>
+					</div>
+					<div class="col-sm-2">
+						<h4>{{ 'TITLE_FOLLOW_US'  | translate }}</h4>
+						<p><a href="#!/"><i class="fa fa-facebook-square"></i> &nbsp; Facebook</a></p>
+						<p><a href="#!/"><i class="fa fa-twitter-square"></i> &nbsp; Twitter</a></p>
+					</div>
+					<div class="col-sm-2">
+						<h4>{{ 'TITLE_LANGUAGE'  | translate }}</h4>
+						<p><a href="" ng-click="setLanguage('en')">English</a></p>
+						<p><a href="" ng-click="setLanguage('es')">Español</a></p>
+						<p><a href="" ng-click="setLanguage('pt-BR')">Português do Brasil</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-8 text-left">
+						<small><b>&copy FUTGAME 2018</b></small> | <small><a href="#!/terms">{{ 'LINK_TERMS_OF_SERVICE' | translate }}</a></small> | <small><a href="#!/privacy">{{ 'LINK_PRIVACY_POLICY' | translate }}</a></small> | <small><a href="#!/cookie">{{ 'LINK_COOKIE_POLICY' | translate }}</a></small>
+					</div>
+					<div class="col-sm-4 text-right">
+						<img src="content/img/futgame_s.png" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div class="loading" ng-show="showLoaderFlag"><img src="content/img/loading.gif" /></div>
+	<script src="lib/jquery/dist/jquery.min.js"></script>
+	<script src="lib/tether/dist/js/tether.min.js"></script>
+	<script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>	
+	<script src="lib/angular/angular.min.js"></script>
+	<script src="lib/angular-route/angular-route.min.js"></script>
+	<script src="lib/angular-resource/angular-resource.min.js"></script>
+	<script src="lib/angular-translate/angular-translate.min.js"></script>
+	<script src="lib/sweetalert2/dist/sweetalert2.min.js"></script>
+	<script src="content/js/scripts.min.js"></script>
 </body>
 </html>

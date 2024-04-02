@@ -1,0 +1,210 @@
+header,html {
+  position: relative
+}
+
+html {
+  min-height: 100%;
+  min-width: 300px
+}
+
+body {
+  font-family: 'Roboto Slab',serif
+}
+
+.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6 {
+  font-family: Slackey,cursive
+}
+
+a {
+  color: #449d44;
+  text-decoration: none
+}
+
+a:active,a:focus,a:hover {
+  color: #5cb85c;
+  text-decoration: none
+}
+
+header .hero a,header .hero a:active,header .hero a:focus,header .hero a:hover,header .jumbotron {
+  color: #FFF
+}
+
+header {
+  background: #449d44;
+  box-shadow: 0 1px 4px rgba(0,0,0,.3)
+}
+
+header .hero {
+  background: url(../img/hero.jpg) center no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%
+}
+
+.bg-turquoise {
+  background-color: #449d44
+}
+
+.bg-transparent {
+  background: 0 0
+}
+
+.navbar-brand img {
+  width: 100%;
+  max-width: 267px;
+  height: 100%;
+  max-height: 50px
+}
+
+header .jumbotron .hero-brand {
+  width: 100%;
+  max-width: 450px;
+  max-height: 100px
+}
+
+header .jumbotron .hero-button {
+  margin-top: 8rem;
+  margin-bottom: 8rem
+}
+
+header .jumbotron .hero-button .btn-lg {
+  font-size: 1.5rem
+}
+
+.bg-white {
+  background-color: #FFF
+}
+
+footer {
+  background: #f7f7f9;
+  margin-top: 2rem
+}
+
+footer a {
+  color: #464a4c
+}
+
+footer a:focus,footer a:hover {
+  color: #5cb85c
+}
+
+footer .footer-top {
+  padding: 50px 0 20px
+}
+
+footer .footer-bottom {
+  font-family: 'Roboto Slab',serif;
+  background: rgba(0,0,0,.1);
+  padding: 20px 0
+}
+
+.btn,.feature-heading h2 {
+  font-family: Slackey,cursive
+}
+
+footer .footer-bottom img {
+  max-height: 20px
+}
+
+footer .footer-ad {
+  width: 300px;
+  height: 250px;
+  background: rgba(0,0,0,.1);
+  margin: 0 auto 20px
+}
+
+.loading {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(255,255,255,.9);
+  z-index: 100000
+}
+
+.loading img {
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -32px;
+  margin-left: -32px
+}
+
+.feature {
+  box-sizing: border-box;
+  margin: 0 10px;
+  padding: 30px 20px 0
+}
+
+.feature-inverse,.feature-striped {
+  box-sizing: border-box;
+  padding: 30px 0
+}
+
+.feature-heading h2 {
+  float: left;
+  margin: 4px 30px 30px 0;
+  text-transform: uppercase
+}
+
+.feature-heading h2:after {
+  border-bottom-color: #5cb85c;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  content: '';
+  display: block;
+  margin: 5px 0 0 -30px;
+  width: calc(100% + 30px)
+}
+
+.feature-main,.feature-summary {
+  clear: both;
+  margin: 0 0 30px
+}
+
+.feature-action {
+  margin: 0 0 30px -20px
+}
+
+.feature-media {
+  margin: 60px 6%
+}
+
+.feature-inverse {
+  background: #449d44;
+  color: #FFF
+}
+
+.feature-striped {
+  background: #f7f7f9
+}
+
+@media (min-width: 768px) {
+  header .jumbotron .hero-button {
+      margin-top:10rem;
+      margin-bottom: 10rem
+  }
+}
+
+@media (min-width: 992px) {
+  header .jumbotron .hero-button {
+      margin-top:12rem;
+      margin-bottom: 12rem
+  }
+}
+
+@media (min-width: 1200px) {
+  header .jumbotron {
+      Xpadding-bottom:12rem
+  }
+
+  header .jumbotron .hero-button {
+      margin-top: 14rem;
+      margin-bottom: 14rem
+  }
+}
